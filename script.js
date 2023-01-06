@@ -3,7 +3,7 @@ const wrapper = document.querySelector(".wrapper"),
   searchInp = wrapper.querySelector("input"),
   options = wrapper.querySelector(".options");
 
-let countries = [
+let feelings = [
   "Angry",
   "Anticipation",
   "Anxious",
@@ -51,7 +51,7 @@ let countries = [
 
 function addCountry(selectedCountry) {
   options.innerHTML = "";
-  countries.forEach((country) => {
+  feelings.forEach((country) => {
     let isSelected = country == selectedCountry ? "selected" : "";
     let li = `<li onclick="updateName(this)" class="${isSelected}">${country}</li>`;
     options.insertAdjacentHTML("beforeend", li);
