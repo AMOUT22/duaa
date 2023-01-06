@@ -121,14 +121,14 @@ h1{
 
 }
 #duaa{
-	margin: 40px;
+	margin: 10px;
 	color: #635746;
 	font-weight: 900;
 	font-size: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 70px;
+	padding: 50px;
 	border: 3px solid #635746;
 	border-radius: 15px;
 }
